@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>LAIPEEM – Apresentação Institucional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --navy:#0C1E3A; --gold:#D4AF37; }
+    .brand-navy{ color:var(--navy)}
+    .brand-bg-navy{ background:var(--navy)}
+    .brand-ring{ box-shadow:0 0 0 2px rgba(12,30,58,.08)}
+  </style>
+</head>
+<body class="min-h-screen bg-white text-zinc-900">
+  <!-- Navbar -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/85 border-b border-zinc-200/60">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="laipeem-logo-full.png" alt="LAIPEEM" class="h-9 w-auto hidden sm:block"/>
+        <img src="laipeem-selo.png" alt="LAIPEEM" class="h-9 w-9 block sm:hidden rounded-2xl"/>
+      </div>
+      <div class="flex items-center gap-2">
+        <a href="#inscricao" class="hidden sm:block">
+          <button class="rounded-2xl px-4 py-2 text-white brand-bg-navy">Quero participar</button>
+        </a>
+        <a href="https://www.instagram.com/laipeem" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 text-sm brand-navy">Instagram</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10" style="background: radial-gradient(1200px 500px at 20% -10%, #D4AF3733, transparent 60%), linear-gradient(180deg, #fff, #D4AF3711 40%, #fff)"></div>
+    <div class="mx-auto max-w-6xl px-4 py-16 grid md:grid-cols-2 gap-10">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight brand-navy">Estética, Empreendedorismo e Marketing <span class="block text-xl md:text-2xl font-semibold opacity-80">além da sala de aula.</span></h1>
+        <p class="mt-5 text-zinc-700 text-base md:text-lg leading-relaxed">A LAIPEEM complementa e aprofunda sua formação pelo tripé universitário: <strong>ensino, pesquisa e extensão</strong>, integrando teoria e prática.</p>
+        <div class="mt-6 flex flex-wrap items-center gap-3 text-zinc-800 text-sm">
+          <span>✔ 11 encontros semanais (presencial)</span>
+          <span>✔ Semanas de prova: sem encontro</span>
+        </div>
+        <div class="mt-7 flex gap-3">
+          <a href="#inscricao"><button class="rounded-2xl px-5 py-3 text-white brand-bg-navy">Inscreva-se</button></a>
+          <a href="#atividades"><button class="rounded-2xl px-5 py-3 border-2 brand-navy" style="border-color:var(--navy)">Conheça as atividades</button></a>
+        </div>
+      </div>
+      <div class="md:pl-8">
+        <div class="rounded-3xl border border-zinc-200/60 shadow-sm p-6 bg-white">
+          <h3 class="text-xl font-semibold mb-2 brand-navy">Cronograma do semestre</h3>
+          <p class="text-sm text-zinc-700">11 encontros semanais, sempre <strong>presenciais</strong> no UNICEPLAC. Sem reuniões nas semanas de prova (EAD e presenciais).</p>
+          <ul class="mt-4 space-y-2 text-sm text-zinc-800">
+            <li>✔ Estudo de casos e discussões</li>
+            <li>✔ Palestras e workshops</li>
+            <li>✔ Minicursos teórico-práticos</li>
+            <li>✔ Projetos de extensão</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="bg-zinc-50 border-y border-zinc-200/60">
+    <div class="mx-auto max-w-6xl px-4 py-14 grid md:grid-cols-3 gap-6">
+      <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring">
+        <h3 class="text-lg font-semibold mb-2 brand-navy">O que é uma Liga Acadêmica?</h3>
+        <p class="text-sm text-zinc-700">Organizações estudantis sem fins lucrativos, geridas por discentes com orientação docente, que <strong>complementam e aprofundam</strong> a formação.</p>
+      </div>
+      <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring">
+        <h3 class="text-lg font-semibold mb-2 brand-navy">Propósito da LAIPEEM</h3>
+        <p class="text-sm text-zinc-700">Integrar conhecimentos de estética (corporal, facial e capilar) com empreendedorismo e marketing — formando profissionais críticos, éticos e inovadores.</p>
+      </div>
+      <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring">
+        <h3 class="text-lg font-semibold mb-2 brand-navy">Como atuamos</h3>
+        <p class="text-sm text-zinc-700">Pelo tripé <strong>ensino, pesquisa e extensão</strong>, com experiências reais, eventos e produção científica.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Atividades -->
+  <section id="atividades">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 brand-navy">Atividades da LAIPEEM</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Encontros & Casos</h3><p class="text-sm text-zinc-700">Sessões semanais com estudo de casos e debates orientados.</p></div>
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Palestras & Workshops</h3><p class="text-sm text-zinc-700">Convidados da academia e do mercado.</p></div>
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Minicursos</h3><p class="text-sm text-zinc-700">Módulos teórico-práticos focados em técnicas e segurança.</p></div>
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Extensão</h3><p class="text-sm text-zinc-700">Projetos junto à comunidade do DF.</p></div>
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Certificações</h3><p class="text-sm text-zinc-700">Certificado de Ligante e certificados por atividade.</p></div>
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Eventos</h3><p class="text-sm text-zinc-700">Jornadas, mostras e congressos.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificação -->
+  <section id="certificacao" class="bg-zinc-50 border-y border-zinc-200/60">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4 brand-navy">Certificação & Horas Complementares</h2>
+      <p class="text-zinc-700 max-w-3xl">A LAIPEEM emite <strong>Certificado de Ligante</strong> (ao final do semestre, mediante presença mínima recomendada de 75–80% e desempenho) e <strong>certificados por atividade</strong> (palestras, workshops, minicursos e projetos de extensão).</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="bg-zinc-50 border-y border-zinc-200/60">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 brand-navy">Perguntas frequentes</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Preciso pagar alguma taxa?</h3><p class="text-sm text-zinc-700">Não há mensalidade. Eventuais custos de eventos pagos ou materiais serão informados previamente e são opcionais.</p></div>
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Qual a presença mínima?</h3><p class="text-sm text-zinc-700">Recomendamos 75–80% de presença para receber o Certificado de Ligante ao final do semestre.</p></div>
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Os encontros são online?</h3><p class="text-sm text-zinc-700">Neste semestre, todos os encontros são <strong>presenciais</strong> no UNICEPLAC. Em semanas de prova, não há encontro.</p></div>
+        <div class="rounded-xl border border-zinc-200/60 p-6 bg-white brand-ring"><h3 class="font-semibold mb-2">Como recebo os certificados?</h3><p class="text-sm text-zinc-700">A secretaria da Liga envia os certificados por e-mail, conforme participação registrada em listas de presença.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section id="timeline">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 brand-navy">Cronograma do processo</h2>
+      <ol class="relative border-s border-zinc-200 space-y-6">
+        <li class="ms-4">
+          <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full" style="background:#D4AF37"></div>
+          <h3 class="text-sm font-semibold brand-navy">Abertura das inscrições</h3>
+          <p class="text-sm text-zinc-700">Formulário de interesse disponível nesta página.</p>
+        </li>
+        <li class="ms-4">
+          <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full" style="background:#D4AF37"></div>
+          <h3 class="text-sm font-semibold brand-navy">Divulgação de selecionados</h3>
+          <p class="text-sm text-zinc-700">Resultado por e-mail/Instagram da LAIPEEM.</p>
+        </li>
+        <li class="ms-4">
+          <div class="absolute -start-1.5 mt-1.5 h-3 w-3 rounded-full" style="background:#D4AF37"></div>
+          <h3 class="text-sm font-semibold brand-navy">Início dos encontros</h3>
+          <p class="text-sm text-zinc-700">Reuniões semanais presenciais no UNICEPLAC (11 ao todo).</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Inscrição: CTA que leva ao Google Forms -->
+  <section id="inscricao">
+    <div class="mx-auto max-w-6xl px-4 py-14 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-bold mb-3 brand-navy">Quer participar?</h2>
+        <p class="text-zinc-700 mb-6">Clique no botão ao lado para abrir o formulário oficial da LAIPEEM no Google Forms e registrar seu interesse.</p>
+        <ul class="space-y-2 text-sm text-zinc-800">
+          <li>✔ Encontros presenciais no UNICEPLAC</li>
+          <li>✔ 11 encontros no semestre (semanais)</li>
+          <li>✔ Sem reuniões nas semanas de prova</li>
+        </ul>
+      </div>
+      <div class="rounded-3xl border border-zinc-200/60 shadow-sm p-8 bg-white text-center brand-ring">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSct-JpzKse4g13tw-cbZMBnulQLt2lSxo2hg9-7iA5eLMOkTQ/viewform?usp=header" target="_blank" rel="noreferrer">
+          <button class="rounded-2xl px-6 py-4 text-white text-lg brand-bg-navy w-full">Abrir Formulário de Inscrição</button>
+        </a>
+        <p class="text-[11px] text-zinc-500 mt-3">O formulário abrirá em uma nova aba (Google Forms).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="border-t border-zinc-200/60">
+    <div class="mx-auto max-w-6xl px-4 py-10 text-sm text-zinc-600 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p>© <span id="year"></span> LAIPEEM – UNICEPLAC. Todos os direitos reservados.</p>
+      <div class="flex items-center gap-4">
+        <a href="https://www.instagram.com/laipeem" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 brand-navy">@laipeem</a>
+        <a href="#sobre" class="brand-navy">Sobre</a>
+        <a href="#beneficios" class="brand-navy">Benefícios</a>
+        <a href="#inscricao" class="brand-navy">Inscrição</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
